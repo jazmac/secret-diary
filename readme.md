@@ -10,4 +10,4 @@ User Story
 | ------- | -------------------------- | ---------------------------------- | -------- |
 | Diary   | Diary@String               | Lock(@boolean)                     | void     |
 |         |                            | addEntry(@string)                  | void     |
-|         |                            | getEntries(@string) string         | @String  |
+|         |                            | getEntries(@string)                | @String  |
