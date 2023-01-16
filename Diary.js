@@ -1,14 +1,15 @@
 class Diary {
 
-    lock = true;
-    input;
+    lock = false;
+    //input;
     entry;
 
-    addEntry() {
-        if (lock === true) {
+    addEntry(entry) {
+        if (this.lock === true) {
             return;
         } else {
-            this.addEntry(entry) === input;
+            //this.entry
+            this.entry = entry;
         }
     };
 
