@@ -13,8 +13,15 @@ class Diary {
         }
     };
 
-
-
+    removeEntry() {
+        if (this.lock === true) {
+            return;
+        } else {
+            this.entry = undefined
+        }
+    }
 }
+
+
 
 module.exports = Diary;
