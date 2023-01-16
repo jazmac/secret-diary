@@ -4,19 +4,16 @@ class Diary {
     input;
     entry;
 
-    unlock() {
+    addEntry() {
         if (lock === true) {
             return;
+        } else {
+            this.addEntry(entry) === input;
         }
-        else {
-            this.addEntry(input) = entry;
-
-            this.lookEntry(input) {
-                return this.entry;
-            }
-        }
-    }
+    };
 
 
 
 }
+
+module.exports = Diary;
