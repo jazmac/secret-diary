@@ -5,8 +5,6 @@ const diary1 = new Diary();
 
 diary1.addEntry("Diary Entry One")
 
-console.log(diary1);
-
-diary1.removeEntry()
+diary1.getEntry()
 
 console.log(diary1);

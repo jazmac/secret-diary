@@ -13,11 +13,11 @@ class Diary {
         }
     };
 
-    removeEntry() {
+    getEntry() {
         if (this.lock === true) {
             return;
         } else {
-            this.entry = undefined
+            this.entry = this.entry
         }
     }
 }
